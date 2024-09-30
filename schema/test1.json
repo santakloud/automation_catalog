@@ -1,0 +1,146 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "identifier": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "engineering_team": {
+      "type": "string"
+    },
+    "engineering_team_contact": {
+      "type": "object",
+      "properties": {
+        "engineering_team_contact_email": {
+          "type": "string"
+        },
+        "engineering_team_contact_name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "engineering_team_contact_email",
+        "engineering_team_contact_name"
+      ]
+    },
+    "engineering_team_responsible": {
+      "type": "object",
+      "properties": {
+        "engineering_team_responsible_email": {
+          "type": "string"
+        },
+        "engineering_team_responsible_name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "engineering_team_responsible_email",
+        "engineering_team_responsible_name"
+      ]
+    },
+    "repository": {
+      "type": "object",
+      "properties": {
+        "repository_url": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "repository_url"
+      ]
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "object",
+      "properties": {
+        "tech": {
+          "type": "string"
+        },
+        "scope": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "tech",
+        "scope"
+      ]
+    },
+    "executor": {
+      "type": "object",
+      "properties": {
+        "executor_type": {
+          "type": "string"
+        },
+        "environments": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "executor_type",
+        "environments"
+      ]
+    },
+    "securizacion_parametros_salida": {
+      "type": "string"
+    },
+    "alarmado": {
+      "type": "string"
+    },
+    "qa": {
+      "type": "string"
+    },
+    "documentation": {
+      "type": "string"
+    },
+    "metricas": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "compliance_%": {
+      "type": "string"
+    },
+    "precons": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "identifier",
+    "name",
+    "description",
+    "engineering_team",
+    "engineering_team_contact",
+    "engineering_team_responsible",
+    "repository",
+    "updated_at",
+    "version",
+    "tags",
+    "executor",
+    "securizacion_parametros_salida",
+    "alarmado",
+    "qa",
+    "documentation",
+    "metricas",
+    "compliance_%",
+    "precons"
+  ]
+}
