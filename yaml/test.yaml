@@ -66,13 +66,13 @@ metricas:
   - "Métrica2"
 compliance_%: 100
 precons:
-  - precon_name: ""
-    precon_description: ""
+  - precon_name: "prueba"
+    precon_description: "descripcion de la prueba"
     condition:
-      function_lambda_name: ""
-      function_lambda_account: ""
+      function_lambda_name: "cositas varias de lambdas"
+      function_lambda_account: "019190190999"
       args:
-        - key: ""
-          value: ""
+        - key: "hola"
+          value: "mundo"
       result_expected: 0
-      error_message: ""
+      error_message: "vaya toalla"

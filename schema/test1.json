@@ -68,10 +68,10 @@
       "type": "object",
       "properties": {
         "tech": {
-          "type": "string"
+          "type": "array"
         },
         "scope": {
-          "type": "string"
+          "type": "array"
         }
       },
       "required": [
@@ -86,7 +86,7 @@
           "type": "string"
         },
         "environments": {
-          "type": "string"
+          "type": "array"
         }
       },
       "required": [
@@ -113,7 +113,7 @@
       }
     },
     "compliance_%": {
-      "type": "string"
+      "type": "integer"
     },
     "precons": {
       "type": "array",

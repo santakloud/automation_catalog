@@ -1,6 +1,2 @@
 El fichero YAML no es válido:
-Error en ['compliance_%']: 100 is not of type 'string'
-Error en ['executor', 'environments']: [{'environment': 'dev', 'details': {'api_endpoint': 'https://url.dev.endpoint', 'api_http_method': 'POST', 'api_swagger_url': 'https://url.dev.swagger', 'api_valid_response_codes': [200, 201], 'input_params': [{'name': 'parametro1', 'description': 'Descripción del parámetro 1', 'type': 'string', 'required': True}], 'output_params': [{'name': 'resultado', 'description': 'Descripción del resultado esperado', 'type': 'string', 'required': True}], 'output_values_description': 'Descripción de los valores de salida'}}] is not of type 'string'
 Error en ['precons', 0]: {'precon_name': 'Nombre de la precondición', 'precon_description': 'Descripción de la precondición', 'condition': {'function_lambda_name': 'Nombre de la Lambda', 'function_lambda_account': '123456789012', 'args': [{'key': 'nombre_del_parametro', 'value': 'valor esperado'}], 'result_expected': 0, 'error_message': 'Mensaje de error si la precondición falla'}} is not of type 'string'
-Error en ['tags', 'scope']: ['Alcance1', 'Alcance2'] is not of type 'string'
-Error en ['tags', 'tech']: ['api', 'Tecnología2'] is not of type 'string'
