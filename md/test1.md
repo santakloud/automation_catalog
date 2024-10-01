@@ -1,0 +1,204 @@
+## schema_version
+
+  v0.1.0
+
+## identifier
+
+  nombre-del-automatismo
+
+## name
+
+  Nombre del Automatismo
+
+## description
+
+  Descripción funcional del automatismo.
+
+## engineering_team
+
+  Nombre del equipo responsable
+
+## engineering_team_contact
+
+  ## engineering_team_contact_email
+
+    email@equipo.com
+
+  ## engineering_team_contact_name
+
+    Nombre del contacto del equipo
+
+## engineering_team_responsible
+
+  ## engineering_team_responsible_email
+
+    email@responsable.com
+
+  ## engineering_team_responsible_name
+
+    Nombre del responsable del equipo
+
+## repository
+
+  ## repository_url
+
+    https://url.del.repositorio
+
+## updated_at
+
+  YYYY-MM-DD
+
+## version
+
+  1.0.0
+
+## tags
+
+  ## tech
+
+    -       api
+
+    -       Tecnología2
+
+  ## scope
+
+    -       Alcance1
+
+    -       Alcance2
+
+## executor
+
+  ## executor_type
+
+    Tipo de ejecutor
+
+  ## environments
+
+    -       ## environment
+
+        dev
+
+      ## details
+
+        ## api_endpoint
+
+          https://url.dev.endpoint
+
+        ## api_http_method
+
+          POST
+
+        ## api_swagger_url
+
+          https://url.dev.swagger
+
+        ## api_valid_response_codes
+
+          -             200
+
+          -             201
+
+        ## input_params
+
+          -             ## name
+
+              parametro1
+
+            ## description
+
+              Descripción del parámetro 1
+
+            ## type
+
+              string
+
+            ## required
+
+              True
+
+        ## output_params
+
+          -             ## name
+
+              resultado
+
+            ## description
+
+              Descripción del resultado esperado
+
+            ## type
+
+              string
+
+            ## required
+
+              True
+
+        ## output_values_description
+
+          Descripción de los valores de salida
+
+## securizacion_parametros_salida
+
+  Descripción de la securización
+
+## alarmado
+
+  Descripción del alarmado
+
+## qa
+
+  Descripción de QA
+
+## documentation
+
+  https://url.a.la.documentacion
+
+## metricas
+
+  -     Métrica1
+
+  -     Métrica2
+
+## compliance_%
+
+  100
+
+## precons
+
+  -     ## precon_name
+
+      Nombre de la precondición
+
+    ## precon_description
+
+      Descripción de la precondición
+
+    ## condition
+
+      ## function_lambda_name
+
+        Nombre de la Lambda
+
+      ## function_lambda_account
+
+        123456789012
+
+      ## args
+
+        -           ## key
+
+            nombre_del_parametro
+
+          ## value
+
+            valor esperado
+
+      ## result_expected
+
+        0
+
+      ## error_message
+
+        Mensaje de error si la precondición falla
+

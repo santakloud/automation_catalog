@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "servidor": {
+      "type": "object",
+      "properties": {
+        "nombre": {
+          "type": "string"
+        },
+        "ip": {
+          "type": "string"
+        },
+        "puerto": {
+          "type": "string"
+        },
+        "activo": {
+          "type": "string"
+        },
+        "usuarios": {
+          "type": "string"
+        },
+        "configuracion": {
+          "type": "string"
+        },
+        "descripcion": {
+          "type": "string"
+        },
+        "notas": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "nombre",
+        "ip",
+        "puerto",
+        "activo",
+        "usuarios",
+        "configuracion",
+        "descripcion",
+        "notas"
+      ]
+    }
+  },
+  "required": [
+    "servidor"
+  ]
+}

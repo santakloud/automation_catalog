@@ -1,2 +1,8 @@
-El fichero YAML no es válido:
-Error en ['precons', 0]: {'precon_name': 'prueba', 'precon_description': 'descripcion de la prueba', 'condition': {'function_lambda_name': 'cositas varias de lambdas', 'function_lambda_account': '019190190999', 'args': [{'key': 'hola', 'value': 'mundo'}], 'result_expected': 0, 'error_message': 'vaya toalla'}} is not of type 'string'
+YAML Lint Errors:
+yaml/test.yaml
+  27:121    error    line too long (124 > 120 characters)  (line-length)
+  35:121    error    line too long (197 > 120 characters)  (line-length)
+  47:121    error    line too long (154 > 120 characters)  (line-length)
+  51:121    error    line too long (227 > 120 characters)  (line-length)
+  59:121    error    line too long (209 > 120 characters)  (line-length)
+
