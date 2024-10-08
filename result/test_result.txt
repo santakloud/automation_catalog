@@ -1,8 +1,0 @@
-YAML Lint Errors:
-yaml/test.yaml
-  27:121    error    line too long (124 > 120 characters)  (line-length)
-  35:121    error    line too long (197 > 120 characters)  (line-length)
-  47:121    error    line too long (154 > 120 characters)  (line-length)
-  51:121    error    line too long (227 > 120 characters)  (line-length)
-  59:121    error    line too long (209 > 120 characters)  (line-length)
-
